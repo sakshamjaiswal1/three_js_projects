@@ -19,8 +19,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.65 : 0.75}
-        position={isMobile ? [0, -3 - 2.2] : [0, -2.35, -1.5]}
+        scale={isMobile ? 0.2 : 0.75}
+        position={isMobile ? [0, 1, -0.5] : [0, -3.1, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -30,12 +30,13 @@ const Computers = ({ isMobile }) => {
 const ComputerCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 800px)");
 
     setIsMobile(mediaQuery.matches);
-
+    console.log("match", mediaQuery.matches);
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
+    
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);
