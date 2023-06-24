@@ -33,10 +33,9 @@ const ComputerCanvas = () => {
     const mediaQuery = window.matchMedia("(max-width: 800px)");
 
     setIsMobile(mediaQuery.matches);
-    console.log("match", mediaQuery.matches);
+
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
-    
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);
