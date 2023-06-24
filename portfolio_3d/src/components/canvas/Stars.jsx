@@ -42,4 +42,4 @@ const StarCanvas = () => {
     </div>
   );
 };
-export default StarsCanvas;
+export default StarCanvas;

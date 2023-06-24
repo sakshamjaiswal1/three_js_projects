@@ -39,3 +39,4 @@ const EarthCanvas = () => {
     </Canvas>
   );
 };
+export default EarthCanvas
