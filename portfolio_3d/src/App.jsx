@@ -9,7 +9,8 @@ import {
   Tech,
   Works,
 } from "./components";
-import StarsCanvas from "./components/test/StarsTest";
+import StarsCanvas from "./components/canvas/Stars";
+
 
 function App() {
   return (
