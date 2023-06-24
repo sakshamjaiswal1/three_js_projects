@@ -9,6 +9,7 @@ import {
   Tech,
   Works,
 } from "./components";
+import StarsCanvas from "./components/test/StarsTest";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
