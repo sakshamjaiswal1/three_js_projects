@@ -29,7 +29,7 @@ function Contact() {
           from_name: form.name,
           to_name: "Saksham Jaiswal",
           from_email: form.email,
-          to_email: "saksham.ece15@nituk.ac.in",
+          to_email: "sjais973@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY

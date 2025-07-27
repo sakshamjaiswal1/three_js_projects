@@ -18,8 +18,8 @@ function Hero() {
             Hi, I'm <span className="text-[#915EFF]"> Saksham Jaiswal</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces,web and mobile applications
+            Frontend Developer | MERN Stack <br className="sm:block hidden" />
+            React.js, React Native & Next.js Specialist
           </p>
         </div>
       </div>
