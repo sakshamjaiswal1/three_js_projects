@@ -15,14 +15,19 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  speraxDapp,
+  chaquen,
+  magically,
+  defimine,
+  coinforge,
+  bullX,
+  six30Labs,
+  speraxIcon,
+  ritewind,
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +47,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -50,11 +55,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "MERN Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Next.js Specialist",
     icon: creator,
   },
 ];
@@ -116,55 +121,39 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "Sperax DAO",
+    icon: speraxIcon,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained the Sperax USD (USDs) platform - an automated, yield-bearing stablecoin with PWA support.",
+      "Integrated Web3 wallet connections to streamline DeFi transactions and improve user onboarding.",
+      "Optimized performance of React.js+ Angular frontend, enhancing load time and user experience and then deployed the React Native App for both iOS and Android.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Frontend Developer",
+    company_name: "Ritewind LLP",
+    icon: ritewind,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to Magically (formerly AlphaSharks), a Web3 NFT trading platform with 10K+ daily users.",
+      "Built and deployed a Chrome extension for NFT analytics and wallet integration.",
+      "Led frontend development of Chafixi Hybrid App using React Native and Next.js components.",
+    ],
+  },
+  {
+    title: "Software Development Engineer I",
+    company_name: "Six30 Labs",
+    icon: six30Labs,
+    iconBg: "#E6DEDD",
+    date: "2021 - 2022",
+    points: [
+      "Developed Diana Art Gallery, a Next.js-based e-commerce platform for digital art sales.",
+      "Built a DAO and Digital Transformation Dashboard with interactive chart and data visualization.",
+      "Implemented responsive design and dashboard components to improve usability and client reporting.",
     ],
   },
 ];
@@ -172,93 +161,156 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Saksham delivered exceptional work on our DeFi platform. His expertise in React and Web3 integration was impressive.",
+    name: "S**** C***",
+    designation: "P****** M******",
+    company: "Sperax DAO",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Working with Saksham was a game-changer for our NFT platform. His attention to detail and performance optimization skills are outstanding.",
+    name: "M*** R*********",
+    designation: "C**",
+    company: "Ritewind LLP",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Saksham's work on our dashboard revolutionized how we present data to clients. Highly recommended for any frontend project.",
+    name: "E*** W*****",
+    designation: "C**",
+    company: "Six30 Labs",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sperax USD (USDs) Platform",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "DeFi stablecoin platform with wallet integration and yield generation. Tools: React, Next.js, TypeScript, Wagmi, Ethers.js, Viem, Redux, Tailwind.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "web3",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: speraxDapp,
+    source_code_link: "https://www.sperax.io/",
   },
   {
-    name: "Job IT",
+    name: "Chaquen - Blockchain Fantasy Sports",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Polygon-based blockchain fantasy app with real-time match data and later developer native app with React Native. Tools: Next.js, TypeScript, Firebase, Viem, Wagmi, Ethers.js, MUI, Redux.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "blockchain",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chaquen,
+    source_code_link: "https://chaquen.io/",
+  },
+  {
+    name: "Magically (AlphaSharks)",
+    description:
+      "NFT trading tool with wallet tracking and Chrome extension support. Tools: React, TypeScript, Wagmi, Viem, Ant Design, Redux.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nft",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "chrome-ext",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: magically,
+    source_code_link: "https://app.mintify.com/",
   },
   {
-    name: "Trip Guide",
+    name: "CoinForge (On chain Referral system)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A token launchpad platform with wallet integration, contract interaction, and real-time UX. Tools: React, Next.js, TypeScript, Wagmi, Ethers.js, Viem, Redux, Tailwind.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "web3",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "launchpad",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: coinforge,
+    source_code_link: "https://coinforge.world/",
+  },
+  {
+    name: "Bullex Trading WebApp+PWA",
+    description:
+      "Cross-chain trading platform with multi-wallet support. Tools: React Native, TypeScript, WebView, Redux, MUI.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pwa",
+        color: "green-text-gradient",
+      },
+      {
+        name: "trading",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bullX,
+    source_code_link: "https://bullx.io/",
+  },
+  {
+    name: "Deftmine (AI based yield generation)",
+    description:
+      "AI based DeFi stablecoin platform with wallet integration and yield generation. Tools: React, Next.js, TypeScript, Wagmi, Ethers.js, Viem, Redux, Tailwind.",
+    tags: [
+      {
+        name: "ai",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "defi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "yield",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: defimine,
+    source_code_link: "https://github.com/sakshamjaiswal",
   },
 ];
 

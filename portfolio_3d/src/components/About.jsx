@@ -43,11 +43,16 @@ function About() {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm an experienced Frontend Engineer with 4+ years of expertise in
+        building scalable web applications and decentralized products. I
+        specialize in the MERN Stack (React.js, React Native & Next.js) and have
+        led the frontend development of high-impact projects like Sperax DAO
+        (DeFi), Chaffen (fantasy gaming), and Magically (NFT trading platform).
+        I'm skilled in modern technologies including TypeScript, Vue, Angular,
+        Tailwind CSS, and cutting-edge Web3 integrations. I focus on delivering
+        intuitive user interfaces, performant architectures, and seamless
+        blockchain integrations. Let's work together to bring your innovative
+        ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services?.map((service, index) => (

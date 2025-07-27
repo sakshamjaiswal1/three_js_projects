@@ -29,6 +29,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import speraxDapp from "./projects/speraxDapp.png";
+
+import chaquen from "./projects/chaquen.png";
+import magically from "./projects/magically.png";
+import defimine from "./projects/defimine.png";
+import coinforge from "./projects/coinforge.png";
+import bullX from "./projects/bullX.png";
+import six30Labs from "./company/ssix30Labs.png";
+import speraxIcon from "./company/sperax.ico";
+import ritewind from "./company/ritewind.png"
 
 export {
   logo,
@@ -59,4 +69,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  speraxDapp,
+  chaquen,
+  magically,
+  defimine,
+  coinforge,
+  bullX,
+  six30Labs,
+  speraxIcon,
+  ritewind,
 };
